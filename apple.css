@@ -1,0 +1,720 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.toggle-icon {
+    display: none;
+    width: 50px;
+    height: 30px;
+}
+
+.toggle {
+    display: flex;
+    width: 30px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 25px;
+    left: 19px;
+}
+
+.toggle-line-2 {
+    top: 30px;
+}
+
+.navbar-header {
+    padding: 0;
+}
+
+.apple-navbar {
+    display: flex;
+    width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.list-navbar-header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-link {
+    color: rgba(255, 250, 250, 1);
+    font-size: 14px;
+}
+
+.baner-content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+.image-content {
+    padding: 0;
+}
+
+.image-header {
+    position: relative;
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.baner-serch-header {
+    position: absolute;
+    width: 980px;
+    margin: 0 auto;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+.text-baner-header {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 817px;
+    margin-top: 48px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.serach-bar {
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.serach-content {
+    width: 100%;
+    padding-right: 35px;
+    height: 3.25rem;
+    font-weight: 300;
+    border-radius: 3px;
+    color: #333;
+    border: 1px solid #bbb;
+    font-size: 22px;
+    font-size: 1.375rem;
+    padding-left: 50px;
+}
+
+.fa-search {
+    left: 18%;
+    top: 135px;
+    position: absolute;
+    font-size: 24px;
+    color: #8585858c;
+}
+
+.product-apple {
+    max-width: 1024px;
+    position: relative;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product-item {
+    text-align: center;
+    padding: 0 12px;
+    margin-bottom: 48px;
+}
+
+.product-item a {
+    color: #333;
+    display: inline-block;
+    outline-offset: -3px;
+}
+
+.product-item-img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    padding-bottom: 16px;
+}
+
+.section-content {
+    width: 817px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.section-content--left {
+    flex-direction: row-reverse;
+}
+
+.section-content-header {
+    font-size: 40px;
+    line-height: 1.05;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.section-content-copy {
+    margin-bottom: 0.25em;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.section-content-navlink a {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #0070c9;
+}
+
+.section-content-navlink i {
+    color: #0070c9;
+}
+
+.nav-response {
+    display: none;
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+.baner-apple {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.image-baner-apple-1 {
+    padding: 0;
+}
+
+.image-banner-1 {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+    background-image: url("image/giveback-support.image.large.jpg");
+}
+
+.baner-titel-1 {
+    position: absolute;
+    top: 33%;
+    left: 14%;
+}
+
+.baner-text {
+    font-size: 45px;
+}
+
+.baner-copy {
+    font-size: 17px;
+}
+
+.baner-titel-1 a {
+    color: #0070c9;
+}
+
+.fa-chevron-right {
+    color: #0070c9;
+}
+
+.social-content {
+    display: flex;
+    margin-top: 45px;
+    padding: 0;
+}
+
+.layout-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.content-link {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.content-link img {
+    display: block;
+    height: auto;
+    margin-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
+.content-link:nth-child(1) {
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.content-link:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+.content-link:nth-child(3) {
+    padding-left: 20px;
+}
+
+.content-title {
+    font-size: 32px;
+}
+
+.content-copy {
+    font-size: 17px;
+}
+
+.footer {
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.footer-apple {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.footer-icone {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 17px 0;
+}
+
+.nav-link-icon {
+    margin-right: 20px;
+}
+
+#footer-apple-icon {
+    font-size: 16px;
+    color: black;
+}
+
+#chevron-icon-footer {
+    color: gray;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.footer-icone span {
+    font-size: 14px;
+}
+
+.footer-navbar {
+    display: flex;
+    padding: 0;
+}
+
+.footer-nav-column {
+    padding: 0;
+    font-size: 11px;
+}
+
+.footer-nav-column-head-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 6px;
+    line-height: 1.7;
+}
+
+.list-navbar-footer {
+    list-style: none;
+}
+
+.list-navbar-footer li {
+    margin-bottom: 2px;
+}
+
+.list-navbar-footer li a {
+    color: #555;
+}
+
+.footer-copyRight {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer-legal {
+    display: flex;
+    padding: 0;
+}
+
+.footer-leg-copyRight {
+    padding: 0;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.footer-leg-link a {
+    font-size: 11px;
+    color: #555;
+    margin-right: 10px;
+}
+
+#footer-apple-icon {
+    margin-right: 20px;
+}
+
+.divider-footer {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+}
+
+.footer-leg-location a {
+    font-size: 11px;
+    color: #555;
+}
+
+.footer-nav-column-toggle {
+    display: none;
+}
+
+.divider-response {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .layout-content {
+        display: block;
+    }
+    .content-link {
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .content-title {
+        font-size: 28px;
+        line-height: 1.1073028571;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .baner-serch-header {
+        width: auto;
+        top: 0;
+    }
+    .text-baner-header {
+        width: auto;
+        font-size: 40px;
+    }
+    .apple-navbar {
+        margin: 0 20px;
+    }
+    .list-navbar-header {
+        flex-direction: row;
+    }
+    .section-content {
+        width: 992px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #section-content-artcol {
+        flex-direction: row-reverse;
+    }
+    .section-content--left {
+        flex-direction: column;
+    }
+    .section-artcol-text {
+        padding-top: 50px;
+        text-align: left;
+    }
+    .section-artcol-text p {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    #link-actrol {
+        font-size: 17px;
+    }
+    #link-actrol-icon {
+        font-size: 17px;
+    }
+    #section-artcol-text-header {
+        font-size: 27px;
+    }
+    .section-actrol-image {
+        height: auto;
+    }
+    .section-content-navlink a,
+    .section-content-navlink i {
+        font-size: 20px;
+    }
+    .section-content-img {
+        padding-top: 50px;
+    }
+    .section-content-header {
+        font-size: 38px;
+    }
+    .section-content-copy {
+        font-size: 22px;
+    }
+    .baner-titel-1 {
+        left: 0;
+    }
+    .layout-content {
+        flex-direction: column;
+    }
+    .content-link {
+        display: flex;
+    }
+    .footer-leg-copyRight {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    .footer-leg-link a {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-header {
+        display: none;
+    }
+    .navbar-collapse {
+        margin: 0;
+    }
+    .baner-content {
+        min-height: 160px;
+    }
+    .image-content {
+        display: none;
+    }
+    .serach-content {
+        height: 40px;
+    }
+    .text-baner-header {
+        font-size: 40px;
+    }
+    .section-content {
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #section-content-artcol {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section-content--left {
+        flex-direction: column;
+    }
+    .section-content-navlink a,
+    .section-content-navlink i {
+        font-size: 20px;
+    }
+    .section-content-img {
+        padding-top: 50px;
+    }
+    .section-content-header {
+        font-size: 34px;
+    }
+    .section-content-copy {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .nav-response {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background: black;
+    }
+    .navbar-response-header {
+        width: 100%;
+        display: flex;
+    }
+    .list-top-header-response {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 20px;
+        list-style: none;
+    }
+    .toggle-icon {
+        display: flex;
+        width: 50px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .toggle {
+        display: block;
+        width: 20px;
+        height: 1px;
+        background: #f5f5f7;
+        position: absolute;
+        top: 25px;
+        left: 19px;
+        opacity: 0.8;
+    }
+    .toggle-line-2 {
+        top: 30px;
+    }
+    .fa-apple {
+        font-size: 24px;
+        opacity: 0.8;
+        margin-right: 20px;
+        color: #f5f5f7;
+    }
+    .fa-shopping-bag {
+        font-size: 18px;
+        opacity: 0.8;
+        color: #f5f5f7;
+        visibility: visible;
+    }
+    .search-bar-response {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 60px;
+        background: black;
+        z-index: 5;
+        display: none;
+    }
+    .input-search-response {
+        position: relative;
+        width: 80%;
+        left: 55px;
+        top: 10px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        height: 40px;
+        background: rgba(112, 111, 111, 0.24);
+        opacity: 0.8;
+    }
+    .list-navbar-response {
+        display: none;
+        width: 100%;
+        position: absolute;
+        height: auto;
+        top: 110px;
+        background: black;
+        z-index: 11;
+        flex-direction: column;
+    }
+    .item-navbar-response {
+        list-style: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 20px;
+        border-bottom: 1px solid;
+    }
+    .link-navbar-response {
+        color: white;
+        text-decoration: none;
+    }
+    .baner-titel-1 {
+        left: 0;
+    }
+    .baner-text {
+        font-size: 30px;
+    }
+    .layout-content {
+        margin-left: 0;
+    }
+    .content-link {
+        display: flex;
+        flex-direction: column;
+    }
+    .divider-response {
+        display: block;
+    }
+    .footer-navbar {
+        flex-direction: column;
+    }
+    .footer-nav-column-head {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .footer-nav-column-toggle {
+        display: block;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+    .list-navbar-footer {
+        display: none;
+    }
+    #footer-apple-icon {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar-collapse {
+        margin: 0;
+    }
+    .text-baner-header {
+        font-size: 32px;
+    }
+    .section-content {
+        width: 576;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-content--left {
+        flex-direction: column;
+    }
+    .section-content-navlink a,
+    .section-content-navlink i {
+        font-size: 18px;
+    }
+    .section-content-img {
+        padding-top: 50px;
+    }
+    .section-content-header {
+        font-size: 30px;
+    }
+    .section-content-copy {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .baner-apple {
+        flex-direction: column;
+    }
+    .baner-titel-1 {
+        position: relative;
+        margin-top: 30px;
+    }
+    .baner-text {
+        font-size: 28px;
+    }
+    .layout-content {
+        margin-left: 0;
+    }
+}
